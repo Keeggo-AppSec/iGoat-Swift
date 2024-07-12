@@ -30,7 +30,7 @@ Fortify-AST-Scan:
       security-events: write
 
       # Java is required to run the various Fortify utilities. Ensuring proper version is installed on the runner.
-        - name: Setup Java
+      - name: Setup Java
         uses: actions/setup-java@v4
         with:
           java-version: 17
